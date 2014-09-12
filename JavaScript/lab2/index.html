@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Local transformations</title>
+		<script type="text/javascript" src="js.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body onload="main()">
+		<canvas id="original" width="500" height="313"></canvas>
+		<canvas id="result" width="500" height="313"></canvas>
+		<br>
+		<div id="menu">
+			<button onclick="linearSmooth()">Lin</button>
+			<button onclick="med()">Median</button>
+			<button onclick="laplass()">Laplassian</button>
+			<button onclick="gradient()">Gradient</button>
+		</div>
+	</body>
+</html>

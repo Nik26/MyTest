@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="SWD.jnlp">
+  <information>
+    <title>SWD</title>
+    <vendor>inoob</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="SWD.jar" size="706244" download="eager" />
+    <jar href="lib/itext-pdfa-5.5.1-javadoc.jar" size="174036" download="eager" />
+    <jar href="lib/itext-pdfa-5.5.1-sources.jar" size="53240" download="eager" />
+    <jar href="lib/itext-pdfa-5.5.1.jar" size="57330" download="eager" />
+    <jar href="lib/itext-xtra-5.5.1-javadoc.jar" size="310313" download="eager" />
+    <jar href="lib/itext-xtra-5.5.1-sources.jar" size="95412" download="eager" />
+    <jar href="lib/itext-xtra-5.5.1.jar" size="75630" download="eager" />
+    <jar href="lib/itextpdf-5.5.1-javadoc.jar" size="5029903" download="eager" />
+    <jar href="lib/itextpdf-5.5.1-sources.jar" size="2226789" download="eager" />
+    <jar href="lib/itextpdf-5.5.1.jar" size="2135217" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="SWD" >
+    <param name="requiredFXVersion" value="2.2+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="swd.SWD"  name="SWD" />
+  <update check="always"/>
+</jnlp>

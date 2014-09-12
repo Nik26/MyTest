@@ -1,0 +1,47 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Работа с изображением</title>
+		<script type="text/javascript" src="js.js"></script>
+		<style type="text/css">
+			canvas
+			{
+				margin-left:20%;
+				margin-top:3%;
+				-moz-box-shadow: 0 0 20px #555;
+				-webkit-box-shadow: 0 0 20px #555;
+				box-shadow: 0 0 20px #555;
+			}
+			
+			input{
+				margin-left: 10px;
+			}
+			
+			#wh{
+				text-align: center;
+				color: Red;
+			}
+			
+			#buttons{
+				left: 50%;
+				margin-left: -175px;
+				width: 350px;
+				position: absolute;
+			}
+		</style>
+	</head>
+
+	<body onload="main()">
+		<div id="buttons">
+			<input type="button" value="default" onclick="draw()">
+			<input type="button" value="clip 1" onclick="clip1()">
+			<input type="button" value="clip 2" onclick="clip2()">
+			<input type="button" value="clip 3" onclick="clip3()">
+		</div>
+		<div>
+			<canvas id="canvas" width="800" height="550"></canvas>
+			<p id="wh"></p>
+		</div>
+	</body>
+</html>
